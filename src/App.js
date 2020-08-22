@@ -1,12 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import SignupForm from './Demo';
+import TwoFactorVerificationForm from './TwoFactorVerificationForm';
+// import SignupForm from './Demo';
 
 function App() {
   return (
     <div className="App">
-      <SignupForm />
+      {/* <SignupForm /> */}
+      <TwoFactorVerificationForm />
     </div>
   );
 }
