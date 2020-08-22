@@ -2,6 +2,7 @@ import React from "react";
 import { Formik, Field } from "formik";
 import AutoSubmitToken from "./AutoSubmitToken";
 import Input from "./Input";
+import InputGroup from "./InputGroup";
 
 const TwoFactorVerificationForm = () => (
   <div>
@@ -26,7 +27,7 @@ const TwoFactorVerificationForm = () => (
       <>
         <div>
           {/* <Field name="token" type="tel" /> */}
-          <Input />
+          <InputGroup />
         </div>
         <AutoSubmitToken />
       </>

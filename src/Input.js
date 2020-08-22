@@ -4,7 +4,7 @@ import { useFormikContext } from "formik";
 const Input = () => {
   const { values, errors, submitForm, handleChange } = useFormikContext();
 
-  // console.log(useFormikContext());
+  console.log(useFormikContext());
   return (
     <>
       <input name="token" type="tel" value={values.token} onChange={handleChange} />
